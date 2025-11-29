@@ -45,7 +45,4 @@ const fetchUserData = async function () {
 };
 
 // add DOMContentLoaded event to window object
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("content has finised loading");
-  fetchUserData();
-});
+document.addEventListener("DOMContentLoaded", fetchUserData);
