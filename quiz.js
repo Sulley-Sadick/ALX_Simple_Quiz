@@ -6,7 +6,7 @@ const feedback = document.getElementById("feedback");
 const checkAnswer = function () {
   const correctAnswer = 4;
 
-  // get value of the clicked element and convert a number using the (+) operator
+  // get value of the clicked element and convert to a number using the (+) operator
   const userAnswer = +document.querySelector('input[name="quiz"]:checked').value;
 
   // correctAnswer === userAnswer
