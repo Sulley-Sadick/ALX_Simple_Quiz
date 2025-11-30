@@ -24,12 +24,12 @@ document.getElementById("add").addEventListener("click", function () {
   clearInputValues();
 });
 
-// add function
+// subtract function
 const subtract = function (number1, number2) {
   return number1 - number2;
 };
 
-// adding values functionality
+// subtrating values functionality
 document.getElementById("subtract").addEventListener("click", function () {
   const number1 = parseFloat(document.getElementById("number1").value) || 0;
   const number2 = parseFloat(document.getElementById("number2").value) || 0;
@@ -49,7 +49,7 @@ const multiply = function (number1, number2) {
   return number1 * number2;
 };
 
-// adding values functionality
+// multiply values functionality
 document.getElementById("multiply").addEventListener("click", function () {
   const number1 = parseFloat(document.getElementById("number1").value) || 0;
   const number2 = parseFloat(document.getElementById("number2").value) || 0;
@@ -69,7 +69,7 @@ const divide = function (number1, number2) {
   return number1 / number2;
 };
 
-// adding values functionality
+// division values functionality
 document.getElementById("divide").addEventListener("click", function () {
   const number1 = parseFloat(document.getElementById("number1").value) || 0;
   const number2 = parseFloat(document.getElementById("number2").value) || 0;
